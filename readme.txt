@@ -1,0 +1,1 @@
+This is just the code to show I know how to use node and also removed all the packages just incase some mongodb passwords are inside it

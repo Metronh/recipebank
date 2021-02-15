@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title> Add Recipe</title>
+  </head>
+  <h1><a href="./">Recipe Bank</a></h1>
+  <body>
+    <div class="Navigation">
+      <a href="./">Home</a>
+			<a href='/logout'>Logout</a>
+    </div>
+       
+<p>Add a Recipe to our server</p>
+      <form method="POST" action="/recipeadded" id="recipeForm">
+        Food Name:
+        <input id="foodName" type="text" name="foodName" value="Name of food" />
+        User Name: 
+        <input id="userName" type="text" name="userName" value="Username" />
+        <input type="submit" value="OK" />
+        
+      </form>
+
+      <div class="instructions">
+      instructions:
+      <textarea id="instructions" name="instructions" rows="10" cols="30" form="recipeForm">Put instructions here</textarea>
+    </div>
+  </body>
+</html>

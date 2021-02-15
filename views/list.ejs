@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>List of recipes</title>
+  </head>
+  <h1><a href="./">Recipe Bank</a></h1>
+
+  <body>
+    <div class="Navigation">
+      <a href="./">Home</a>
+			<a href='/logout'>Logout</a>
+    </div>
+
+            <h3>You can see all the recipes we have here:</h3>
+
+            <ul>
+
+              <% availablerecipes.forEach(function(recipe){ %>
+
+              <li><%= recipe.foodName %>: <%= recipe.instructions %> by,<%= recipe.userName%> </li>
+
+             <% }) %>
+
+            </ul>
+	<a href='./'>Home</a>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+

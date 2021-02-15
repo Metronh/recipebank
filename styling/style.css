@@ -1,0 +1,78 @@
+/*================================================================
+Content: 
+1) Normalise
+2) Navigation
+3)
+
+==================================================================*/
+/*===============================================================
+1)
+==================================================================*/
+body, html{
+    height:100%;
+    margin: 0;
+    background-color: silver;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*=========================================================================
+2) Navigation
+
+========================================================================*/
+.Navigation{
+    float: left;
+    color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 1% 1%;
+}
+
+.Navigation a{
+    color: black;
+    padding: 1%;
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Navigation a:hover{
+    background-color: #273c75;
+    color: white;
+    border: 1% solid #273c75;
+}
+
+.Navigation a.active{
+    border: 2px solid #273c75;
+}
+
+.instructions{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+p{
+    padding-top: 5%;
+}
+
+form{
+   /* margin-left: 40%;
+    margin-right: 40%;*/
+    margin-right: 40%;
+    text-align: center;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
